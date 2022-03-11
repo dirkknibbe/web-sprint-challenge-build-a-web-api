@@ -3,7 +3,7 @@ const express = require("express");
 
 const router = express.Router();
 
-const { validateActionBody } = require("./actions-middleware");
+const { validateActionBody } = require("./actions-middlware");
 
 const Action = require("./actions-model.js");
 
